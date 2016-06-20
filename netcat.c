@@ -34,6 +34,9 @@
 /* #undef _POSIX_SOURCE		/* might need this for something? */
 #define HAVE_BIND		/* XXX -- for now, see below... */
 #define HAVE_HELP		/* undefine if you dont want the help text */
+#define GAPING_SECURITY_HOLE             //控制-e参数的功能
+#define TELNET                           //控制-t参数的功能
+
 /* #define ANAL			/* if you want case-sensitive DNS matching */
 #ifdef HAVE_STDLIB_H
 #include <stdlib.h>

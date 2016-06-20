@@ -9,6 +9,8 @@
 #include <stdlib.h>
 #include <winsock2.h>
 #include <winbase.h>
+#define GAPING_SECURITY_HOLE             //控制-e参数的功能
+#define TELNET                           //控制-t参数的功能
 
 #ifdef GAPING_SECURITY_HOLE
 
